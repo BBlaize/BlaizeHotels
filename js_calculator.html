@@ -1,0 +1,33 @@
+<style>
+.entrybox{width:500;border:solid lightblue 2px;
+margin:20px;padding:20px;
+display:inline-block;
+}
+.display{width:500;border:solid lightblue 2px;
+margin:20px;padding:20px;
+font-size:25px;
+display:inline-block;
+}
+</style>
+
+<div style="text-align:center;">
+<div  class="display" id="dsply"> </div>
+
+<div class="entrybox">
+<span>
+<label for="dtext">First number</label>
+<input type="text" name="dtext" id="frst" size=5>
+</span>
+<span>
+<label for="dtext">Second number</label>
+<input type="text" name="dtext" id="scnd" size=5>
+</span>
+<p>
+
+<button onclick="add_numbers()">Add (+)</button>
+<button onclick="sub_numbers()">Sub (-) </button>
+</p>
+</div>
+</div>
+
+<script src="assets/javascript/calculator.js"></script>
